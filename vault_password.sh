@@ -1,6 +1,10 @@
 #!/bin/dash
 if [ -s '.vault_password' ]; then
-  echo .vault_password
+  if [ `cat .vault_password` = "lastpass" ]; then
+    lpass show --notes ansible_vault
+  else
+    echo .vault_password
+  fi
 else
-  lpass show --notes ansible_vault
+  echo "password"
 fi
