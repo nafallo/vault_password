@@ -13,7 +13,7 @@ set the first line to a service method and the last line
 to a lookup that service supports, for example:
 
     lastpass
-    `name of a note stored in your vault`
+    <name of a note stored in your vault>
 
 You can still specify a password directly in the file as
 well, and if the file doesn't exist because you're not
