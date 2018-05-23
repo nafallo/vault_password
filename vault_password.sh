@@ -1,4 +1,4 @@
-#!/bin/dash
+#!/bin/sh
 # vault_password.sh by Nafallo Bjälevik <nafallo@ubuntu.com>
 # Released under the GNU GPL v3 licence.
 #
